@@ -1,0 +1,339 @@
+/* Selector Universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    border: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url(imagenes/_DSC0763.JPG);
+    background-size: 100%;
+
+    font-family: 'Franklin Gothic Medium';
+}
+
+a {
+    color: inherit
+}
+
+img,
+video,
+iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    padding: 0;
+}
+
+header {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+
+}
+
+
+
+.header,
+.main,
+.footer {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.main {
+
+    min-height: 100vh;
+
+}
+
+
+
+.header__logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid whitesmoke;
+
+
+
+
+
+
+}
+
+.header__titulo {
+    text-transform: uppercase;
+    text-align: center;
+    color: #f5b5cc;
+
+    margin-bottom: 1rem;
+
+}
+
+
+.header__descripcion {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.main {
+    border-radius: 50%;
+
+    padding: 0;
+    margin: 1rem;
+
+}
+
+.seccion1 {
+    padding: 0rem;
+}
+
+.seccion1__lista {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+
+}
+
+.seccion1__item {
+    background-color: #f5b5cc;
+    border-radius: 0.5rem;
+    border: solid whitesmoke;
+    margin: 9px;
+
+}
+
+.seccion1__enlace {
+    text-decoration: none;
+    background-color: #f5b5cc;
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+
+    color: blue;
+}
+
+
+/* Seccion 2 */
+.seccion2 {
+    height: 100%;
+
+}
+
+.seccion2 {
+
+    padding-bottom: 1rem;
+}
+
+.seccion2__iframe {
+
+    border-radius: 0.5rem;
+    height: 300px;
+
+
+
+}
+
+/* Seccion 3 */
+
+.seccion3 {
+    padding: 1rem;
+}
+
+.seccion3__lista {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+
+
+}
+
+.seccion3__item {
+    width: 250px;
+    height: 250px;
+    border-radius: 0.5rem;
+
+    border: solid whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.seccion3__enlace {
+
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium';
+    color: white;
+
+}
+
+/* Seccion 4 */
+
+.seccion4 {
+
+    margin: 0;
+    padding: 0;
+
+    border: solid 10px blue
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(102, 102, 173);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.8;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 0.5;
+
+}
+
+
+
+.seccion5 {
+    padding: 1rem;
+    color: beige;
+    background-color: #f5b5cc;
+
+
+
+}
+
+.color__h1 {
+
+    background-color: #f5b5cc;
+    color: white;
+    border-radius: 0.5rem;
+    border: solid whitesmoke;
+
+
+
+}
+
+.seccion5__boton {
+    background-color: #f5b5cc;
+    border-color: white;
+    color: rgb(102, 102, 173);
+
+}
+
+.seccion5__boton:hover {
+    color: #f5b5cc;
+
+}
+
+
+
+/* Seccion 6 */
+
+
+.seccion6 {
+    padding: 3rem;
+}
+
+.seccion6__lista {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.seccion6__item {
+    background-color: #f5b5cc;
+    border-radius: 0.5rem;
+    border: solid whitesmoke;
+
+}
+
+.seccion6__enlace {
+    text-decoration: none;
+    background-color: #f5b5cc;
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: inherit;
+    color: blue;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    align-items: center;
+
+    padding-bottom: 2rem;
+
+}
+
+
+.footer__descripcion {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    padding-bottom: 1rem;
+
+
+
+
+
+
+}
+
+.footer__imagen {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid whitesmoke;
+
+
+
+
+}
+
+/*medias querys*/
+@media(min-width:768px) {
+    body {
+
+        background-color: blue;
+    }
+
+    .header__titulo {
+        font-size: 60px;
+    }
+
+}
