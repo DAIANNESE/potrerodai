@@ -333,11 +333,7 @@ header {
 /*medias querys*/
 
 
-@media (max-width:450px) {
-    .main {
-        min-height: 7em;
-
-    }
+@media (max-width:450px) {}
 
 
 
