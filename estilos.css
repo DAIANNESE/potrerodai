@@ -51,8 +51,10 @@ header {
 .header,
 .main,
 .footer {
-    max-width: 375px;
+    max-width: 600px;
+    width: 100%;
     margin: 0 auto;
+
 }
 
 .main {
@@ -314,23 +316,14 @@ header {
 }
 
 .footer__imagen {
-    height: auto;
-
-}
-
-
-
-
-
-
-
-
-.footer__imagen {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: solid whitesmoke;
     padding-top: 0;
+
+
+
 
 
 
