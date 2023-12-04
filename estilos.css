@@ -321,13 +321,21 @@ header {
     border-radius: 50%;
     border: solid whitesmoke;
     padding-top: 0;
+}
 
-
-
-
-
+.footer_imagen1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
 
 }
+
+
+
+
+
+
 
 /*medias querys*/
 
