@@ -51,7 +51,7 @@ header {
 .header,
 .main,
 .footer {
-    max-width: 600px;
+    max-width: 375px;
     margin: 0 auto;
 }
 
