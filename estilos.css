@@ -154,6 +154,7 @@ header {
 
     border-radius: 0.5rem;
     height: 300px;
+    width: 100%;
 
 
 
@@ -202,7 +203,7 @@ header {
 
 .seccion4 {
 
-    margin: 0;
+    margin: 3rem;
     padding: 0;
 
 }
