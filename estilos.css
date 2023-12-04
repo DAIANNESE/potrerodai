@@ -281,17 +281,16 @@ header {
 
 .seccion__form__boton:hover {
     color: #f5b5cc;
-
 }
 
-.seccion5__volver {
+
+
+.seccion6 {
+    padding: 1rem;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     text-decoration: none;
-
 }
-
-
 
 
 
