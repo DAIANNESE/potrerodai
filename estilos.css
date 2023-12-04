@@ -240,9 +240,8 @@ header {
 
 .seccion5 {
     padding: 1rem;
-    color: beige;
-    background-color: #f5b5cc;
-    border-radius: 0.5rem;
+
+
 
 
 
@@ -254,56 +253,62 @@ header {
     color: white;
     border-radius: 0.5rem;
     border: solid whitesmoke;
+    font-size: 25px;
+    text-align: center;
 
 
 
 }
 
-.seccion5__boton {
+.seccion__form {
+    padding: 1rem;
+
+    background-color: #f5b5cc;
+    border-color: white;
+    border-radius: 0.5rem;
+    color: white;
+
+
+
+}
+
+.seccion__form__boton {
     background-color: #f5b5cc;
     border-color: white;
     color: rgb(102, 102, 173);
 
 }
 
-.seccion5__boton:hover {
+.seccion__form__boton:hover {
     color: #f5b5cc;
 
 }
 
-
-
-/* Seccion 6 */
-
-
-.seccion6 {
-    padding-top: 3rem;
-    margin-bottom: 0;
-}
-
-.seccion6__lista {
-    list-style-type: none;
+.seccion5__volver {
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.seccion6__item {
-    background-color: #f5b5cc;
-    border-radius: 0.5rem;
-    border: solid whitesmoke;
-
-}
-
-.seccion6__enlace {
+    justify-content: center;
     text-decoration: none;
-    background-color: #f5b5cc;
-    display: block;
-    text-align: center;
-    padding: 0.5rem;
-    border-radius: inherit;
-    color: blue;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer {
     display: flex;
