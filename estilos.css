@@ -116,8 +116,7 @@ header {
 
 .seccion1__item {
     background-color: #f5b5cc;
-    border: #f5b5cc;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     border: solid whitesmoke;
     margin: 9px;
 
@@ -129,9 +128,13 @@ header {
     display: block;
     text-align: center;
     padding: 0.5rem;
-
+    border-radius: inherit;
     color: blue;
 }
+
+
+
+
 
 
 /* Seccion 2 */
@@ -225,6 +228,7 @@ header {
     padding: 1rem;
     color: beige;
     background-color: #f5b5cc;
+    border-radius: 0.5rem;
 
 
 
@@ -329,7 +333,7 @@ header {
 /*medias querys*/
 
 
-@media (min-width:600px) and(max-width: 768px) {
+@media (min-width:768px) and(max-height: 760px) {
     /* Estilos para dispositivos móviles */
 }
 
