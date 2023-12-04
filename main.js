@@ -1,9 +1,9 @@
-document.addEventListener('DOMContentLoaded'), () => {
+document.addEventListener('DOMContentLoaded', () => {
     const JsConfetti = new JsConfetti()
-    JsConfetti.addConfetti(
-        {
-            emoji: ('🪐', '🌟')
+    JsConfetti.addConfetti({
+        emojis: ['🪐', '🌟'],
 
-        }
-    )
-}
+    })
+
+
+})
