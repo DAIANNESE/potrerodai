@@ -333,7 +333,7 @@ header {
 /*medias querys*/
 
 
-@media (min-width:768px) and(min-height: 261px) {
+@media (max-width:768px) and(min-height: 261px) {
     /* Estilos para dispositivos móviles */
 }
 
