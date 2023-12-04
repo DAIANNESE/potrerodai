@@ -311,13 +311,19 @@ header {
     font-style: italic;
     font-size: 20px;
     padding-bottom: 1rem;
+}
 
-
-
-
-
+.footer__imagen {
+    height: auto;
 
 }
+
+
+
+
+
+
+
 
 .footer__imagen {
     width: 150px;
