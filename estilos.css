@@ -221,8 +221,8 @@ header {
 
 .carousel-control-prev,
 .carousel-control-next {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     background-color: rgb(102, 102, 173);
     border-radius: 50%;
     top: 50%;
